@@ -168,6 +168,7 @@ public class ArticleDetailFragment extends Fragment implements
             titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             ((AppCompatActivity) getActivity()).setSupportActionBar((Toolbar) mRootView.findViewById(R.id.detailToolbar));
             ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
 
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
