@@ -95,34 +95,6 @@
         </com.example.xyzreader.ui.MaxWidthLinearLayout>
     </ScrollView>
 
-
-
-    <!--<FrameLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content">-->
-
-        <!--<FrameLayout-->
-            <!--android:id="@+id/photo_container"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:background="@color/photo_placeholder">-->
-            <!--&lt;!&ndash;suppress AndroidLintContentDescription &ndash;&gt;-->
-            <!--<ImageView-->
-                <!--android:id="@+id/photo"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="200dp"-->
-                <!--/>-->
-
-            <!--<View-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="112dp"-->
-                <!--android:background="@drawable/photo_background_protection" />-->
-
-        <!--</FrameLayout>-->
-
-
-    <!--</FrameLayout>-->
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
